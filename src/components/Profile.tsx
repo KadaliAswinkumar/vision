@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 
-/** Profile photo synced from your Linktree */
-const PROFILE_IMAGE = '/profile.jpg'
+/** Profile photo — BASE_URL is required for GitHub Pages (/vision/) */
+const PROFILE_IMAGE = `${import.meta.env.BASE_URL}profile.jpg`
 
 export function Profile() {
   const reduceMotion = useReducedMotion()
@@ -38,7 +38,7 @@ export function Profile() {
           <img
             src={PROFILE_IMAGE}
             alt="@kadaliaswinkumar"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-[center_18%]"
             width={112}
             height={112}
           />
