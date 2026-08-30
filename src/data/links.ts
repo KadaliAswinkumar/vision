@@ -56,7 +56,7 @@ export const links: LinkItem[] = [
   {
     id: 'resume',
     title: 'Resume',
-    url: 'https://drive.google.com/file/d/1Z-vQ1NGrc3ELmG1YuoouVTBiH-FSyue_/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/1jCh6uigXAhV1CGkw7CeVJCbKRDKAzYyH/view?usp=sharing',
     icon: FileText,
     accent: 'rgba(255,255,255,0.18)',
   },
@@ -77,7 +77,7 @@ export const links: LinkItem[] = [
   {
     id: 'leetcode',
     title: 'LeetCode',
-    url: 'https://leetcode.com/u/Theodor_7/',
+    url: 'https://leetcode.com/u/kadaliaswinkumar/',
     icon: Code2,
     accent: 'rgba(255,255,255,0.18)',
   },
